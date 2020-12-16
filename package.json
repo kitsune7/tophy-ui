@@ -1,0 +1,30 @@
+{
+  "name": "tophy-ui",
+  "version": "1.0.0",
+  "description": "A custom design system made with React and Storybook",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitsune7/tophy-ui.git"
+  },
+  "author": "Christopher Bradshaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kitsune7/tophy-ui/issues"
+  },
+  "homepage": "https://github.com/kitsune7/tophy-ui#readme",
+  "prettier": "@happikitsune/prettier-config",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
